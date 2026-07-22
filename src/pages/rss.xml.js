@@ -12,7 +12,7 @@ export async function GET(context) {
   return rss({
     title: "Hydle Research Group",
     description:
-      "A dedicated blog and announcements area for Hydle Research Group (HRG).",
+      "The official website of Hydle Research Group (HRG). Explore our latest projects and announcements.",
     site: context.site,
     items: sortedPosts.map((post) => ({
       title: post.data.title,

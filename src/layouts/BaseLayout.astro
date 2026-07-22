@@ -16,7 +16,7 @@ interface Props {
 
 const {
     title,
-    description = "A dedicated blog and announcements area for Hydle Research Group (HRG).",
+    description = "A dedicated news and announcements area for Hydle Research Group (HRG).",
     image = "/og-image.png",
     type = "website",
     publishedDate,
@@ -188,7 +188,7 @@ const jsonLD =
                     <div class="hidden md:flex items-center gap-6">
                         <nav class="flex items-center gap-6">
                             <a href="/" class="nav-link">Home</a>
-                            <a href="/blog" class="nav-link">Blog</a>
+                            <a href="/news" class="nav-link">News</a>
                             <a href="/about" class="nav-link">About</a>
                         </nav>
                         <DarkModeToggle />
@@ -246,9 +246,9 @@ const jsonLD =
                         >Home</a
                     >
                     <a
-                        href="/blog"
+                        href="/news"
                         class="block px-3 py-2 text-sm text-gray-900 dark:text-gray-300 hover:underline"
-                        >Blog</a
+                        >News</a
                     >
                     <a
                         href="/about"
@@ -273,7 +273,7 @@ const jsonLD =
                     </div>
                     <nav class="flex items-center gap-4">
                         <a href="/" class="nav-link-footer">Home</a>
-                        <a href="/blog" class="nav-link-footer">Blog</a>
+                        <a href="/news" class="nav-link-footer">News</a>
                         <a href="/about" class="nav-link-footer">About</a>
                     </nav>
                 </div>
