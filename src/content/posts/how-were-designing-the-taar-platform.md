@@ -3,7 +3,7 @@ title: How we're designing the TAAR platform
 date: 2026-06-11
 excerpt: A quick update on the design of TAARABLE and future plans for TAAR-x models
 image: /images/image2.png
-tags: [update, design, taar, inside-look]
+tags: [update, design]
 ---
 
 The TAAR platform is where our primary robotics research is happening, and the ecosystem is growing _fast_. From the prototype [TAAR-1 model](https://github.com/Hydle-Research-Group/taar1), we've spawned [TAARABLE](https://github.com/Hydle-Research-Group/taarable), a UART communication interface for the TAAR-x models.

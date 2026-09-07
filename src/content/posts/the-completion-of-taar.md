@@ -3,7 +3,7 @@ title: The completion of TAAR
 date: 2026-08-19
 excerpt: An analysis of TAAR + our first research paper
 image: /images/image6.png
-tags: [update, taar]
+tags: [update, research]
 ---
 
 TAAR is in a completed state, with all of the design files, firmware, and research finalized!

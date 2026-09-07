@@ -3,7 +3,7 @@ title: Manufacturing, TAAR, and Progress
 date: 2026-06-29
 excerpt: How the TAAR platform is evolving
 image: /images/image3.png
-tags: [news, taar]
+tags: [news, research]
 ---
 
 In our last post, we briefly mentioned TAAR-2 and future plans. A lot, and we mean **_a lot_**, has changed since then.

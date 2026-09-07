@@ -3,7 +3,7 @@ title: Making our own parts
 date: 2026-07-22
 excerpt: How we are committed to manufacturing our own parts locally
 image: /images/image4.png
-tags: [news, announcement, design, manufacturing]
+tags: [news, announcement, manufacturing]
 ---
 
 As research continues, we have steadily accumulated a growing library of **parts** that we have designed, tested, and refined. CAD models, engineering drawings, STL meshes for additive manufacturing, and STEP files for interoperable mechanical design have gradually filled our local archives. As this collection expanded, it became clear that these designs should be organized into a centralized, publicly accessible repository. This ultimately led to the creation of our dedicated manufacturing database, [manufacturing](https://github.com/Hydle-Research-Group/manufacturing/).
