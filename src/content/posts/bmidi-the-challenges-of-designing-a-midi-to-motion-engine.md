@@ -48,13 +48,13 @@ Once this was established, the overhaul of an overhaul began, with the new frame
 
 The problem was that originally, the frame logic had a flow that looked like:
 
-```
+```md
 MIDI Data -> Objects -> Frames
 ```
 
 We wanted a flow with frames and objects flipped, like:
 
-```
+```md
 MIDI Data -> Frames -> Objects 
 ```
 
