@@ -1,0 +1,77 @@
+.section nav_bar:
+    ld horizontal, left
+    md "<a href=\"/\"><img src=\"https://raw.githubusercontent.com/Hydle-Research-Group/media/main/logos/logo-dark.svg\" width=\"100px\"/></a>"
+    exp
+    md "[Home](/) | [News](/news/) | [Research](/research/) | [About](/about/) | [AIF](/aif/)"
+    str
+
+.section footer:
+    md "TODO"
+
+.page "Home", "/":
+    jmp nav_bar
+    ld vertical, center
+    md "# Welcome to Hydle Research Group"
+    md "We are dedicated to engineering and applied research in various scientific fields."
+    md "<button
+        onclick=\"window.location.href = '/research/';\">
+        See our research
+        </button> or [View our projects on GitHub](https://github.com/Hydle-Research-Group)"
+    md "<hr>"
+    jmp footer
+
+.page "News", "/news/":
+    jmp nav_bar
+    ld vertical, center
+    md "# News"
+    md "See our latest announcements and research"
+    md "<hr>"
+    md "### [bmidi: The challenges of designing a MIDI-To-Motion Engine](/news/3/) - September 7th, 2026"
+    md "### [Introducing the AIF Certification](/news/2/) - August 14th, 2026"
+    md "### [Launching Hydle Research Group](/news/1/) - June 6th, 2026"
+    str
+    jmp footer
+
+.page "Launching Hydle Research Group", "/news/1/":
+    jmp nav_bar
+    ld horizontal, center
+    exp
+    mdf "src/news/1.md"
+    exp
+    str
+    jmp footer
+
+.page "Introducing the AIF Certification", "/news/2/":
+    jmp nav_bar
+    ld horizontal, center
+    exp
+    mdf "src/news/2.md"
+    exp
+    str
+    jmp footer
+
+.page "bmidi: The challenges of designing a MIDI-To-Motion Engine", "/news/3/":
+    jmp nav_bar
+    ld horizontal, center
+    exp
+    mdf "src/news/3.md"
+    exp
+    str
+    jmp footer
+
+.page "Research", "/research/":
+    jmp nav_bar
+    jmp footer
+
+.page "About", "/about/":
+   jmp nav_bar
+   jmp footer
+
+.page "AIF", "/aif/":
+    jmp nav_bar
+    ld vertical, center
+    exp
+    mdf "src/aif.md"
+    exp
+    str
+    jmp footer

@@ -1,0 +1,9 @@
+[build]
+name = "hydleresearch"
+
+[resources]
+favicon = "assets/favicon.svg"
+stylesheet = "style.css"
+
+[compiler]
+allow-markdown-html = true
