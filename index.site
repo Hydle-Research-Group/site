@@ -1,12 +1,21 @@
+.section site_link_bar:
+   md "[Home](/) [/ News](/news/) [/ Research](/research/) [/ About](/about/) [/ AIF](/aif/)"
+
 .section nav_bar:
     ld horizontal, left
     md "<a href=\"/\"><img src=\"https://raw.githubusercontent.com/Hydle-Research-Group/media/main/logos/logo-dark.svg\" width=\"100px\"/></a>"
     exp
-    md "[Home](/) | [News](/news/) | [Research](/research/) | [About](/about/) | [AIF](/aif/)"
+    jmp site_link_bar
     str
 
 .section footer:
-    md "TODO"
+    md "<hr>"
+    exp
+    ld horizontal, left
+    md "© 2026 Hydle Research Group"
+    exp
+    jmp site_link_bar
+    str
 
 .page "Home", "/":
     jmp nav_bar
@@ -16,8 +25,13 @@
     md "<button
         onclick=\"window.location.href = '/research/';\">
         See our research
-        </button> or [View our projects on GitHub](https://github.com/Hydle-Research-Group)"
-    md "<hr>"
+        </button>
+        or
+        <button
+        onclick=\"window.location.href = 'https://github.com/Hydle-Research-Group';\">
+        View our projects
+        </button>"
+    str
     jmp footer
 
 .page "News", "/news/":
@@ -25,7 +39,6 @@
     ld vertical, center
     md "# News"
     md "See our latest announcements and research"
-    md "<hr>"
     md "### [bmidi: The challenges of designing a MIDI-To-Motion Engine](/news/3/) - September 7th, 2026"
     md "### [Introducing the AIF Certification](/news/2/) - August 14th, 2026"
     md "### [Launching Hydle Research Group](/news/1/) - June 6th, 2026"
