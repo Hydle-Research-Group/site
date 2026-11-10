@@ -39,8 +39,9 @@
     ld vertical, center
     md "# News"
     md "See our latest announcements and research"
-    md "### [bmidi: The challenges of designing a MIDI-To-Motion Engine](/news/3/) - September 7th, 2026"
-    md "### [Introducing the AIF Certification](/news/2/) - August 14th, 2026"
+    md "### [bmidi: The challenges of designing a MIDI-To-Motion Engine](/news/4/) - September 7th, 2026"
+    md "### [Introducing the AIF Certification](/news/3/) - August 14th, 2026"
+    md "### [Making our own parts](/news/2/) - July 22, 2026"
     md "### [Launching Hydle Research Group](/news/1/) - June 6th, 2026"
     md "<hr>"
     str
@@ -55,7 +56,7 @@
     str
     jmp footer
 
-.page "Introducing the AIF Certification", "/news/2/":
+.page "Making our own parts", "/news/2/":
     jmp nav_bar
     ld horizontal, center
     exp
@@ -64,11 +65,20 @@
     str
     jmp footer
 
-.page "bmidi: The challenges of designing a MIDI-To-Motion Engine", "/news/3/":
+.page "Introducing the AIF Certification", "/news/3/":
     jmp nav_bar
     ld horizontal, center
     exp
     mdf "src/news/3.md"
+    exp
+    str
+    jmp footer
+
+.page "bmidi: The challenges of designing a MIDI-To-Motion Engine", "/news/4/":
+    jmp nav_bar
+    ld horizontal, center
+    exp
+    mdf "src/news/4.md"
     exp
     str
     jmp footer
