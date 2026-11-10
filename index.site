@@ -42,6 +42,7 @@
     md "### [bmidi: The challenges of designing a MIDI-To-Motion Engine](/news/3/) - September 7th, 2026"
     md "### [Introducing the AIF Certification](/news/2/) - August 14th, 2026"
     md "### [Launching Hydle Research Group](/news/1/) - June 6th, 2026"
+    md "<hr>"
     str
     jmp footer
 
@@ -77,8 +78,16 @@
     jmp footer
 
 .page "About", "/about/":
-   jmp nav_bar
-   jmp footer
+    jmp nav_bar
+    ld vertical, center
+    md "# About"
+    ld horizontal, center
+    exp
+    mdf "src/about.md"
+    exp
+    str
+    str
+    jmp footer
 
 .page "AIF", "/aif/":
     jmp nav_bar
